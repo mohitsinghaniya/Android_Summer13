@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/tvconst"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10sp"
+        android:layout_weight="27"
+        android:background="#00000000"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:gravity="top"
+        android:inputType="none"
+        android:scrollbars="vertical" >
+    </EditText>
+
+</LinearLayout>

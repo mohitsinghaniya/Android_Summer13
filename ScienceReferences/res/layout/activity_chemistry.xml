@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5sp"
+    android:paddingLeft="5sp"
+    android:paddingRight="5sp"
+    android:paddingTop="5sp"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/batomic"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5sp"
+        android:layout_weight="1"
+        android:background="@drawable/button"
+        android:onClick="whenClick"
+        android:text=" Atomic Structure"
+        android:textColor="#fff"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/bequilibrium"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5sp"
+        android:layout_weight="1"
+        android:background="@drawable/button"
+        android:onClick="whenClick"
+        android:text=" Equilibrium"
+        android:textColor="#fff"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btk"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5sp"
+        android:layout_weight="1"
+        android:background="@drawable/button"
+        android:onClick="whenClick"
+        android:text=" Thermochemistry, Kinetics"
+        android:textColor="#fff"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/bgls"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5sp"
+        android:layout_weight="1"
+        android:background="@drawable/button"
+        android:onClick="whenClick"
+        android:text=" Gases, Liquids and Solutions"
+        android:textColor="#fff"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/bore"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="0sp"
+        android:layout_weight="1"
+        android:background="@drawable/button"
+        android:onClick="whenClick"
+        android:text=" Oxidation-Reduction, Electrochemistry"
+        android:textColor="#fff"
+        android:textSize="25sp" />
+
+</LinearLayout>
