@@ -10,5 +10,5 @@ Four Apps were developed for during the intern by me :
 3. Science Reference
 4. Periodic Table
 
-*See License.pdf
-More details on how to use the apps can be found in ReadMe.pdf
+*See License.pdf,
+more details on how to use the apps can be found in ReadMe.pdf
