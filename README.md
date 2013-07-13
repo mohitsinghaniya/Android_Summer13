@@ -1,9 +1,9 @@
 Android_Summer13
 ================
 
-Projects done for Intern @ IITG
+Projects done in the Internship at IITG (Indian Institute of Technology, Guwahati)
 
-Four Apps were developed for during the intern by me :
+Four Apps were developed for IITG during the internship by me :
 
 1. Scientific Calculator
 2. Unit Converter
