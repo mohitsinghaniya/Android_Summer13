@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="25sp"
+    android:background="#fff"
+    tools:context=".InterestCalculator" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Principal :"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/principal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="No. of Year :"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/year"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Rate ( % ) :"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/rate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30sp"
+        android:gravity="center|right"
+        android:text=" "
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp" >
+
+        <Button
+            android:id="@+id/si"
+            android:layout_width="0dp"
+            android:layout_height="50sp"
+            android:layout_marginRight="5sp"
+            android:layout_weight="1"
+            android:background="@drawable/blackbutton"
+            android:onClick="whenClick"
+            android:text="SI"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/ci"
+            android:layout_width="0dp"
+            android:layout_height="50sp"
+            android:layout_weight="1"
+            android:background="@drawable/blackbutton"
+            android:onClick="whenClick"
+            android:text="CI"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp" >
+
+        <Button
+            android:id="@+id/diff"
+            android:layout_width="0dp"
+            android:layout_height="50sp"
+            android:layout_marginRight="5sp"
+            android:layout_weight="1"
+            android:background="@drawable/blackbutton"
+            android:onClick="whenClick"
+            android:text="CI - SI"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="0dp"
+            android:layout_height="50sp"
+            android:layout_weight="1"
+            android:background="@drawable/blackbutton"
+            android:onClick="whenClick"
+            android:text="Cl"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+</LinearLayout>
