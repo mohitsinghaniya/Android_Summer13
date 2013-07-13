@@ -1,7 +1,7 @@
 Android_Summer13
 ================
 
-Projects done in the Internship at IITG (Indian Institute of Technology, Guwahati)
+Projects done in the Internship @ IITG (Indian Institute of Technology, Guwahati)
 
 Four Apps were developed for IITG during the internship by me :
 
