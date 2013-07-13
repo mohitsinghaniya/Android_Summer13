@@ -1,0 +1,1480 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75sp" >
+
+        <Button
+            android:id="@+id/bTable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1sp"
+            android:layout_weight="1"
+            android:background="@drawable/blackbutton"
+            android:onClick="whenClick"
+            android:text="Table"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bLearn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1sp"
+            android:layout_weight="1"
+            android:background="@drawable/blackbutton"
+            android:onClick="whenClick"
+            android:text="Learn"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bsearch"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1sp"
+            android:layout_weight="1"
+            android:background="@drawable/blackbutton"
+            android:onClick="whenClick"
+            android:text="Search"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:fillViewport="true"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   1 - Hydrogen"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   2 - Helium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   3 - Lithium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   4 - Beryllium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   5 - Boron"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   6 - Carbon"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   7 - Nitrogen"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   8 - Oxygen"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   9 - Fluorine"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b10"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   10 - Neon"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b11"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   11 - Sodium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b12"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   12 - Magnesium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b13"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   13 - Aluminium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b14"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   14 - Silicon"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b15"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   15 - Phosphorus"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b16"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   16 - Sulfur"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b17"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   17 - Chlorine"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b18"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   18 - Argon"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b19"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   19 - Potassium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b20"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   20 - Calcium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b21"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   21 - Scandium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b22"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   22 - Titanium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b23"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   23 - Vanadium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b24"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   24 - Chromium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b25"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   25 - Manganese"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b26"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   26 - Iron"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b27"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   27 - Cobalt"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b28"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   28 - Nickel"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b29"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   29 - Copper"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b30"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   30 - Zinc"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b31"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   31 - Gallium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b32"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   32 - Germanium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b33"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   33 - Arsenic"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b34"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   34 - Selenium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b35"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   35 - Bromine"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b36"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   36 - Krypton"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b37"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   37 - Rubidium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b38"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   38 - Strontium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b39"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   39 - Yttrium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b40"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   40 - Zirconium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b41"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   41 - Niobium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b42"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   42 - Molybdenum"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b43"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   43 - Technetium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b44"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   44 - Ruthenium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b45"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   45 - Rhodium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b46"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   46 - Palladium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b47"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   47 - Silver"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b48"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   48 - Cadmium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b49"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   49 - Indium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b50"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   50 - Tin"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b51"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   51 - Antimony"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b52"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   52 - Tellurium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b53"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   53 - Iodine"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b54"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   54 - Xenon"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b55"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   55 - Caesium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b56"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   56 - Barium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b57"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   57 - Lanthanum"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b58"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   58 - Cerium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b59"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   59 - Praseodymium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b60"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   60 - Neodymium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b61"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   61 - Promethium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b62"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   62 - Samarium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b63"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   63 - Europium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b64"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   64 - Gadolinium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b65"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   65 - Terbium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b66"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   66 - Dysprosium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b67"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   67 - Holmium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b68"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   68 - Erbium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b69"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   69 - Thulium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b70"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   70 - Ytterbium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b71"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   71 - Lutetium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b72"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   72 - Hafnium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b73"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   73 - Tantalum"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b74"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   74 - Tungsten"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b75"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   75 - Rhenium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b76"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   76 - Osmium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b77"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   77 - Iridium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b78"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   78 - Platinum"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b79"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   79 - Gold"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b80"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   80 - Mercury"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b81"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   81 - Thallium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b82"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   82 - Lead"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b83"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   83 - Bismuth"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b84"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   84 - Polonium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b85"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   85 - Astatine"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b86"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   86 - Radon"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b87"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   87 - Francium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b88"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   88 - Radium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b89"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   89 - Actinium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b90"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   90 - Thorium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b91"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   91 - Protactinium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b92"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   92 - Uranium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b93"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   93 - Neptunium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b94"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   94 - Plutonium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b95"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   95 - Americium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b96"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   96 - Curium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b97"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   97 - Berkelium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b98"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   98 - Californium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b99"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   99 - Einsteinium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b100"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   100 - Fermium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b101"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   101 - Mendelevium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b102"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   102 - Nobelium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b103"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   103 - Lawrencium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b104"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   104 - Rutherfordium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b105"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   105 - Dubnium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b106"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   106 - Seaborgium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b107"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   107 - Bohrium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b108"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   108 - Hassium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b109"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   109 - Meitnerium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b110"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   110 - Darmstadtium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b111"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   111 - Roentgenium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b112"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   112 - Copernicium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b113"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   113 - Ununtrium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b114"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   114 - Flerovium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b115"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   115 - Ununpentium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b116"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   116 - Livermorium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b117"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   117 - Ununseptium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/b118"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_marginBottom="1sp"
+                android:background="@drawable/button"
+                android:gravity="center|left"
+                android:onClick="whenClick"
+                android:text="   118 - Ununoctium"
+                android:textColor="#fff"
+                android:textSize="23sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
